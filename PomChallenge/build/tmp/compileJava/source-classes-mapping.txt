@@ -1,0 +1,10 @@
+com/demoqa/automation/models/DataInjection.java
+ com.demoqa.automation.models.DataInjection
+com/demoqa/automation/pageobjects/FormRegisterPage.java
+ com.demoqa.automation.pageobjects.FormRegisterPage
+com/demoqa/automation/utils/Javascript.java
+ com.demoqa.automation.utils.Javascript
+com/demoqa/automation/utils/Times.java
+ com.demoqa.automation.utils.Times
+com/demoqa/automation/steps/FormRegisterPageStep.java
+ com.demoqa.automation.steps.FormRegisterPageStep
