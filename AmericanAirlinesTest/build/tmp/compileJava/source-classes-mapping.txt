@@ -1,0 +1,6 @@
+com/americanairlines/automation/utils/JavascriptClick.java
+ com.americanairlines.automation.utils.JavascriptClick
+com/americanairlines/automation/pageobjects/SearchFlightsPage.java
+ com.americanairlines.automation.pageobjects.SearchFlightsPage
+com/americanairlines/automation/steps/SearchFlightsPageSteps.java
+ com.americanairlines.automation.steps.SearchFlightsPageSteps
