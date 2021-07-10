@@ -1,0 +1,8 @@
+com/demoqa/automation/pageobjects/RegisterUserPage.java
+ com.demoqa.automation.pageobjects.RegisterUserPage
+com/demoqa/automation/models/DataInjection.java
+ com.demoqa.automation.models.DataInjection
+com/demoqa/automation/utils/Excel.java
+ com.demoqa.automation.utils.Excel
+com/demoqa/automation/steps/RegisterNewUserPageStep.java
+ com.demoqa.automation.steps.RegisterNewUserPageStep
