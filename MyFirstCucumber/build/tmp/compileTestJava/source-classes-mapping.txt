@@ -1,0 +1,6 @@
+com/advantageshopping/automation/runners/RegisterNewUserRunner.java
+ com.advantageshopping.automation.runners.RegisterNewUserRunner
+project/pom/Base.java
+ project.pom.Base
+com/advantageshopping/automation/stepdefinitions/RegisterNewUserStepDefinitions.java
+ com.advantageshopping.automation.stepdefinitions.RegisterNewUserStepDefinitions
