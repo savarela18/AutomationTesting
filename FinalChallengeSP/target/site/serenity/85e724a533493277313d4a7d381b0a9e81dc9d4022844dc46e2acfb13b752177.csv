@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register form","Register Successful With Excel","SUCCESS","2021-07-10T10:56:34.384-05:00[America/Bogota]","0.0","21.29"
+"Register form","Register Successful With Config.properties","SUCCESS","2021-07-10T10:56:56.732-05:00[America/Bogota]","0.0","15.83"
+"Register form","Register Successful with Faker","SUCCESS","2021-07-10T10:57:13.515-05:00[America/Bogota]","0.0","16.3"

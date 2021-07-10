@@ -5,6 +5,7 @@ import com.demoqa.automation.task.*;
 import com.demoqa.automation.ui.RegisterFormPage;
 import com.demoqa.automation.utils.Javascript;
 import com.demoqa.automation.utils.ScreenShot;
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -14,6 +15,8 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
+import ru.yandex.qatools.ashot.Screenshot;
+
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class RegisterFormStepDefinitions {
@@ -26,7 +29,11 @@ public class RegisterFormStepDefinitions {
         OnStage.setTheStage(new OnlineCast());
         OnStage.theActorCalled("admin").can(BrowseTheWeb.with(driver));
 
+    }
 
+    @After
+    public void TakeScreen(){
+        ScreenShot.takeScreenShot(driver);
     }
 
     @Given("^open the browser$")
@@ -47,7 +54,7 @@ public class RegisterFormStepDefinitions {
     public void validateTheDataWithExcelInTheSuccessfulRegisterForm() {
 
         theActorInTheSpotlight().attemptsTo(RegisterFormValidationExcel.validationExcel());
-        ScreenShot.takeScreenShot(driver);
+
 
     }
 
@@ -61,7 +68,7 @@ public class RegisterFormStepDefinitions {
     @Then("^Validate the data with Config\\.Properties in the successful register form$")
     public void validateTheDataWithConfigPropertiesInTheSuccessfulRegisterForm() {
         theActorInTheSpotlight().attemptsTo(RegisterFormValidationConfig.ValidationConfig());
-        ScreenShot.takeScreenShot(driver);
+
     }
 
     @When("^inject the data with Faker in the fields$")
@@ -73,6 +80,6 @@ public class RegisterFormStepDefinitions {
     @Then("^Validate the data with Faker in the successful register form$")
     public void validateTheDataWithFakerInTheSuccessfulRegisterForm() {
         theActorInTheSpotlight().attemptsTo(RegisterFormValidationFaker.validationFaker());
-        ScreenShot.takeScreenShot(driver);
+
     }
 }

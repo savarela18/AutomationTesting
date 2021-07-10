@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="7908c0fb5aaba5c0c7bc5b78a2268dd0ae15c252e688900423104dba749c03ca.html">Register Form</a></span>
+                > <span class="truncate-60"><a
+                    href="d95026faece55f983327a8b6bea96fd6371a9a7a6d9edc138efeb4807571548d.html">Register Successful with Faker </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-07-2021 10:57</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Register Form </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                this is the last challenge in the automation course<br />
+i have to open the browser, fill all fields in the page and make at least 3 validations<br />
+also the data injection must have 3 different ways to do it Excel,<br />
+with config.properties and faker with model data injection<br />
+also we need to take ScreenShoot at the end of validation scenarios
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="56184dfda5e71575346d9d4f5c75885832bf2a04d681fdaba03b0eaf91f90ad4.html">Faker
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register Successful with Faker
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="50ee5627f3e405437f3958612f18a509995888d5136235b131c8c708ced9193a.png" title=" Given open the browser" width="1360"/>
+                <img src="50ee5627f3e405437f3958612f18a509995888d5136235b131c8c708ced9193a.png" title=" admin opens the https://www.demoqa.com/automation-practice-form" width="1360"/>
+                <img src="fe354227ca4f43698936b976427d10923d27a4448182c1c601e3a6bf3d8d4f8d.png" title=" Given open the browser (completed)" width="1360"/>
+                <img src="716564dc697f2cddef087d253dec43bb77e34f482854d20af69a5882cca18154.png" title=" When inject the data with Faker in the fields" width="1360"/>
+                <img src="716564dc697f2cddef087d253dec43bb77e34f482854d20af69a5882cca18154.png" title=" Admin fill register form faker" width="1360"/>
+                <img src="716564dc697f2cddef087d253dec43bb77e34f482854d20af69a5882cca18154.png" title=" admin clicks on " width="1360"/>
+                <img src="716564dc697f2cddef087d253dec43bb77e34f482854d20af69a5882cca18154.png" title=" admin enters 'Maryjane' into " width="1360"/>
+                <img src="1f1833820ec1abbe2e3f4423d17e8076978e5cc56567e200bfae1dd8ba1699d3.png" title=" admin enters 'Maryjane' into  (completed)" width="1360"/>
+                <img src="1f1833820ec1abbe2e3f4423d17e8076978e5cc56567e200bfae1dd8ba1699d3.png" title=" admin enters 'Goldner' into " width="1360"/>
+                <img src="a946476cc5886bb569b07cf3b487800c23be0546d70fcbd87b188a5564ffe1b5.png" title=" admin enters 'Goldner' into  (completed)" width="1360"/>
+                <img src="a946476cc5886bb569b07cf3b487800c23be0546d70fcbd87b188a5564ffe1b5.png" title=" admin enters 'dudley.legros@gmail.com' into " width="1360"/>
+                <img src="b95804fde4b64137015cb17fbba222479ea8beab3dbaafb124db5b7ce6a630a0.png" title=" admin enters 'dudley.legros@gmail.com' into  (completed)" width="1360"/>
+                <img src="b95804fde4b64137015cb17fbba222479ea8beab3dbaafb124db5b7ce6a630a0.png" title=" admin clicks on " width="1360"/>
+                <img src="43321ee1c0cde822a6c581ee8e5691cd65ca07c80df6f4e8c06d4a5a84d72585.png" title=" admin clicks on  (completed)" width="1360"/>
+                <img src="43321ee1c0cde822a6c581ee8e5691cd65ca07c80df6f4e8c06d4a5a84d72585.png" title=" admin enters '5435413177' into " width="1360"/>
+                <img src="7b4412a099c886fc8a8bd61c61df38f612f227117e40af1b075cc3856c17b1ba.png" title=" admin enters '5435413177' into  (completed)" width="1360"/>
+                <img src="7b4412a099c886fc8a8bd61c61df38f612f227117e40af1b075cc3856c17b1ba.png" title=" admin enters 'a','19 September,1998',ENTER into " width="1360"/>
+                <img src="aaa3cc53ba61d6a05f713bda0e8f5becb16843185c1c7822ed5d3a3d8281df08.png" title=" admin enters 'a','19 September,1998',ENTER into  (completed)" width="1360"/>
+                <img src="aaa3cc53ba61d6a05f713bda0e8f5becb16843185c1c7822ed5d3a3d8281df08.png" title=" admin enters 'Computer Science' into " width="1360"/>
+                <img src="aacd0feca9fb9a1bf09dc2539675be1a558560fa26d01e2a37fe9d2aa3c5957f.png" title=" admin enters 'Computer Science' into  (completed)" width="1360"/>
+                <img src="aacd0feca9fb9a1bf09dc2539675be1a558560fa26d01e2a37fe9d2aa3c5957f.png" title=" admin enters ENTER into " width="1360"/>
+                <img src="7ce190388ae6e7837fc6488f41dc35649c4b1286668afe342bf775db1285d995.png" title=" admin enters ENTER into  (completed)" width="1360"/>
+                <img src="7ce190388ae6e7837fc6488f41dc35649c4b1286668afe342bf775db1285d995.png" title=" admin clicks on " width="1360"/>
+                <img src="108c7c31b5097383861d4d8a796d7bcfc6c7159a45c0a4c134d640af86ce7551.png" title=" admin clicks on  (completed)" width="1360"/>
+                <img src="108c7c31b5097383861d4d8a796d7bcfc6c7159a45c0a4c134d640af86ce7551.png" title=" admin enters 'C:\RobotConfig\UploadPictures\Faker.png' into " width="1360"/>
+                <img src="1e3edaf7096bc911c6ae7d73b054c4d8d775f3a31da31404e764028d56408e6f.png" title=" admin enters 'C:\RobotConfig\UploadPictures\Faker.png' into  (completed)" width="1360"/>
+                <img src="1e3edaf7096bc911c6ae7d73b054c4d8d775f3a31da31404e764028d56408e6f.png" title=" admin enters '4618 August Lodge, Thanhhaven, ND 29999-7857' into " width="1360"/>
+                <img src="c648c8a582ce7adf30037bc9b0156cece83bdc7bf0ea23f355a01342f4628bf6.png" title=" admin enters '4618 August Lodge, Thanhhaven, ND 29999-7857' into  (completed)" width="1360"/>
+                <img src="c648c8a582ce7adf30037bc9b0156cece83bdc7bf0ea23f355a01342f4628bf6.png" title=" admin enters 'NCR',ENTER into " width="1360"/>
+                <img src="94c308c6ef806c02176b58df873b9b449cbd46fe21153c5b4dd7f93c34642967.png" title=" admin enters 'NCR',ENTER into  (completed)" width="1360"/>
+                <img src="94c308c6ef806c02176b58df873b9b449cbd46fe21153c5b4dd7f93c34642967.png" title=" admin enters 'Noida',ENTER into " width="1360"/>
+                <img src="b43f0f3b765354ba0e8c16a6be50b72c88f87720484de925cad7c2b8ee0ed1f5.png" title=" admin enters 'Noida',ENTER into  (completed)" width="1360"/>
+                <img src="b43f0f3b765354ba0e8c16a6be50b72c88f87720484de925cad7c2b8ee0ed1f5.png" title=" admin clicks on " width="1360"/>
+                <img src="ab0c66361369305fc34b5a5ba7017bbcc57792c55bc586b3b081d1052962e188.png" title=" admin clicks on  (completed)" width="1360"/>
+                <img src="ab0c66361369305fc34b5a5ba7017bbcc57792c55bc586b3b081d1052962e188.png" title=" Admin fill register form faker (completed)" width="1360"/>
+                <img src="ab0c66361369305fc34b5a5ba7017bbcc57792c55bc586b3b081d1052962e188.png" title=" When inject the data with Faker in the fields (completed)" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then Validate the data with Faker in the successful register form" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Admin register form validation faker" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then presence elements" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then presence elements (completed)" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then validation should be equalToIgnoringCase('Thanks for submitting the form')" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then validation should be equalToIgnoringCase('Thanks for submitting the form') (completed)" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then validation should be equalToIgnoringCase('Faker.png')" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then validation should be equalToIgnoringCase('Faker.png') (completed)" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then validation should be equalToIgnoringCase('Music')" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then validation should be equalToIgnoringCase('Music') (completed)" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then validation should be equalToIgnoringCase('Male')" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then validation should be equalToIgnoringCase('Male') (completed)" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then validation should be equalToIgnoringCase('19 September,1998')" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then validation should be equalToIgnoringCase('19 September,1998') (completed)" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Admin register form validation faker (completed)" width="1360"/>
+                <img src="c245c09306ccf163d0d09e1feb077729c2cfc57a12b4bf3149274bc1ac3412f8.png" title=" Then Validate the data with Faker in the successful register form (completed): <span class='success-color'>SUCCESS</span>" width="1360"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>

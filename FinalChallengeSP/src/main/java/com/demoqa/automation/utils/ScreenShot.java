@@ -5,17 +5,10 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import ru.yandex.qatools.ashot.AShot;
-import ru.yandex.qatools.ashot.Screenshot;
-import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
-
-import javax.imageio.ImageIO;
-import javax.xml.crypto.Data;
 import java.io.File;
 import java.io.IOException;
 
 public class ScreenShot {
-
 
 
     public static void takeScreenShot(WebDriver driver){

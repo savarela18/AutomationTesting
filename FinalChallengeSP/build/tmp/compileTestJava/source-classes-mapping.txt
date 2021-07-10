@@ -1,4 +1,4 @@
-com/demoqa/test/stepdefinitions/RegisterFormStepDefinitions.java
- com.demoqa.test.stepdefinitions.RegisterFormStepDefinitions
 com/demoqa/test/runner/RegisterFormRunner.java
  com.demoqa.test.runner.RegisterFormRunner
+com/demoqa/test/stepdefinitions/RegisterFormStepDefinitions.java
+ com.demoqa.test.stepdefinitions.RegisterFormStepDefinitions

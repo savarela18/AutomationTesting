@@ -10,21 +10,21 @@ com/demoqa/automation/questions/Validation.java
  com.demoqa.automation.questions.Validation
 com/demoqa/automation/utils/SpecialMethods.java
  com.demoqa.automation.utils.SpecialMethods
+com/demoqa/automation/utils/Javascript.java
+ com.demoqa.automation.utils.Javascript
 com/demoqa/automation/task/FillRegisterFormConfig.java
  com.demoqa.automation.task.FillRegisterFormConfig
+com/demoqa/automation/task/FillRegisterFormExcel.java
+ com.demoqa.automation.task.FillRegisterFormExcel
+com/demoqa/automation/task/FillRegisterFormFaker.java
+ com.demoqa.automation.task.FillRegisterFormFaker
+com/demoqa/automation/task/RegisterFormValidationConfig.java
+ com.demoqa.automation.task.RegisterFormValidationConfig
+com/demoqa/automation/task/RegisterFormValidationExcel.java
+ com.demoqa.automation.task.RegisterFormValidationExcel
 com/demoqa/automation/task/RegisterFormValidationFaker.java
  com.demoqa.automation.task.RegisterFormValidationFaker
 com/demoqa/automation/ui/RegisterFormPage.java
  com.demoqa.automation.ui.RegisterFormPage
-com/demoqa/automation/utils/Javascript.java
- com.demoqa.automation.utils.Javascript
-com/demoqa/automation/task/RegisterFormValidationConfig.java
- com.demoqa.automation.task.RegisterFormValidationConfig
-com/demoqa/automation/task/FillRegisterFormFaker.java
- com.demoqa.automation.task.FillRegisterFormFaker
-com/demoqa/automation/task/RegisterFormValidationExcel.java
- com.demoqa.automation.task.RegisterFormValidationExcel
-com/demoqa/automation/task/FillRegisterFormExcel.java
- com.demoqa.automation.task.FillRegisterFormExcel
 com/demoqa/automation/utils/ScreenShot.java
  com.demoqa.automation.utils.ScreenShot
